@@ -50,7 +50,7 @@ void draw() {
     fill(255);
     textSize(30);
     text("Wybierz odpowiedni port", width/3+20+15, height/8+50);
-    textSize(20);
+    textSize(10);
     for (int i = 0; i < Serial.list().length; i++) {
       fill(255);
       text(i + 1 + ") " + Serial.list()[i].toString(), width/3+20+20, height/8+100 + i * 25);
